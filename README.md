@@ -27,6 +27,6 @@ then need to read the logs by the following command:
 
 ## Build helm package
 ```
-helm package ./charts/aws-multi-ecr-credentials/ -d ./docs
+helm package ./charts/ -d ./docs
 helm repo index ./docs/
 ```
